@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<style>
+.jumbotron
+{
+
+ background-color:yellow;
+text-align :center;
+color:white;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.container
+{
+ margin :100px;
+}
+body {
+    font: 20px ;
+    line-height: 1.8;
+    color: purple;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-color: #yellow; /* Green */
+    color: #purple;
+  }
+  .bg-2 {
+    background-color: #purple; /* Dark Blue */
+    color: #yellow;
+  }
+    .bg-2f {
+    background-color:#red; /* Dark Blue */
+    color: purple;
+  }
+  .bg-3 {
+    background-color: #black; /* White */
+    color: #green;
+  }
+  .bg-4 {
+    background-color: #purple; /* Black Gray */
+    color: #red;
+  }
+
+
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: 0px;
+	background-color: black;
+	color: blue;
+  }
+  .navbar-nav  li a:hover {
+    color:purple!important;
+  }
+.navbar-nav  li a{
+    color: yellow !important;
+  }
+.text-ft{
+
+color:green;
+}
+.carousel-item{
+    height:700px;
+
+}
+.carousel-item img{
+    height: 700px;
+
+
+}
+
+
+</style>
+
+
+</head>
+<body>
+ <nav class="navbar  fixed-top
+ navbar-expand-sm
+   navbar-dark">
+ <a class="navbar-brand"
+ href="">
+ Loage</a>
+ <button class="navbar-toggler" type="button"
+ data-toggle="collapse" data-target="#naledzani">
+<span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="naledzani">
+   <ul class="navbar-nav">
+
+      <li class="nav-item"> <a class="nav-link"
+  href="#jumbo">Home </a></li>
+      <li class="nav-item"> <a class="nav-link"
+  href="#price"> Prices</a></li>
+       <li class="nav-item"> <a class="nav-link"
+  href="#slide"> Buildings</a></li>
+    <li class="nav-item"> <a class="nav-link"
+  href="#stuff"> stuff</a></li>
+
+   </ul>
+
+ </div>
+ </nav>
+ <div class="jumbotron " id="jumbo">
+   <div class="container">
+     <h1>fhethu hune vhadi mvumvusa hone</h1>
+    <p>ndi fhethu hune vha takalela u di mvumvusa hone na mita yavho  <p>
+   </div>
+ </div>
+
+  <div class="container bg-2f" id="price">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Day</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R250 </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li> 2- 4 hours</li>
+              <li>Swimming</li>
+              <li> No catering</li>
+              <li>TV with Dstv</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Over Night</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R400 </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>12-23 hours</li>
+              <li>Swimming</li>
+              <li>No catering</li>
+              <li>Free internet</li>
+			  <li>TV with dstv</li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="card mb-4 box-shadow">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Week stay</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">R1500 </h1>
+            <ul class="list-unstyled mt-3 mb-4">
+             <li>12-23 hours</li>
+              <li>Swimming</li>
+              <li>Catering</li>
+              <li>Free internet</li>
+			  <li>TV with dstv</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+	  </div>
+ <br>
+ <br>
+ <br>
+<br> <br> <br>
+<div class="container w-400 h-150">
+<div id="slide" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slide" data-slide-to="0" class="active"></li>
+    <li data-target="#slide" data-slide-to="1"></li>
+    <li data-target="#slide" data-slide-to="2"></li>
+  </ul>
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="park.jpg" alt="Los Angeles" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>park</h3>
+        <p>ndi fhethu hune vha awela</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="pool.jpg" alt="Chicago" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>pool</h3>
+        <p>hune ha bambeliwa hone</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="chair.jpg" alt="New York" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>chair</h3>
+        <p>zwidulo zwau nakelela</p>
+      </div>
+    </div><div class="carousel-item">
+      <img src="img 4.jpg" alt="New York" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>passage</h3>
+        <p>fhethu hune vha dzhena ngaho</p>
+      </div>
+    </div><div class="carousel-item">
+      <img src="img 5.jpg" alt="New York" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>lorge</h3>
+        <p>fhethu hune vha hu takalela udzula</p>
+      </div>
+    </div><div class="carousel-item">
+      <img src="img 6.jpg" alt="New York" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>matafulani</h3>
+        <p>fhethu hune vha lela hone</p>
+      </div>
+    </div><div class="carousel-item">
+      <img src="img 7.jpg" alt="New York" width="400px" height="200px">
+      <div class="carousel-caption">
+        <h3>pub</h3>
+        <p>fhethu hune hawanala vhadivhalea</p>
+      </div>
+    </div>
+      </div>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#slide" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#slide" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+ <br>
+ <h1 style ="text-align:center;"> stuff  tsha vhorine</h1>
+<!-- Page Content -->
+<div class="container">
+  <div class="row" id="stuff">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="stuff 1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">stuff Member</h5>
+          <div class="card-text text-black-50">maneger</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="stuff 2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">stuff member</h5>
+          <div class="card-text text-black-50">secretary </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="stuff 3.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">stuff member</h5>
+          <div class="card-text text-black-50">chair person</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="stuff 4.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">stuff member</h5>
+          <div class="card-text text-black-50">vais chair person  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+</div>
+
+<footer class="page-footer font-small blue bg-4 ">
+<div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">hune ra wanala hone</h4>
+          <p class="lead mb-0">nzhelele louis>
+            <br> louistrishard</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-6 ">
+          <h4 class="text-uppercase mb-4">contact us on </h4>
+            <div class="col-lg-6 mb-5 mb-lg-0">
+          <p class="text-uppercase mb-4">Phone numbers<br>
+           072 098 4463</p>
+
+        </div>
+		</div>
+    </div>
+
+
+      </div>
+    </div>
+
+     <div class="footer-copyright text-center text-ft">@ 2019 project:
+
+     </div>
+
+
+   </footer>
+
+
+
+  </body>
+  </html>
